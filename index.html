@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- swiper js link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+  <header class="header-nav">
+    <nav class="navbar">
+      <a href="#" class="nav-name">
+        <h2 class="logo-text">Travelers</h2>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#destination" class="nav-link">Destination</a>
+        </li>
+        <li class="nav-item">
+          <a href="#packages" class="nav-link">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact Us</a>
+        </li>
+
+        <!-- Close Button -->
+      <div class="nav-close" id="nav-close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      </ul>
+
+      
+      <!-- Toggle Button -->
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-overlay">
+      <h1 class="hero-title">EXPLORE PHILIPPINES</h1>
+      <p class="hero-description">Discover breathtaking destinations, crafted experiences, and exclusive deals</p>
+      <button class="hero-button">Book now</button>
+      </div>
+    </section>
+
+    <!-- DESTINATION SECTION -->
+    <section class="destinations-section" id="destination">
+      <h2 class="section-title destination-title">POPULAR DESTINATIONS</h2>
+
+      <div class="card-container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+              <img src="images/boracay.jpg" alt="" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Boracay</h3>
+                <p class="card-description">Powdery white sand, vibrant nightlife, and world-class sunsets.</p>
+                <button class="card-button">Read More</button>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="images/palawan.jpg" alt="" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Palawan</h3>
+                <p class="card-description">Turquoise lagoons, hidden beaches, and breathtaking limestone cliffs.</p>
+                <button class="card-button">Read More</button>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="images/bohol.jpg" alt="" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Bohol</h3>
+                <p class="card-description">Iconic Chocolate Hills, adorable tarsiers, powdery beaches, and adventures from diving to countryside tours.</p>
+                <button class="card-button">Read More</button>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="images/siargao.jpg" alt="" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Siargao</h3>
+                <p class="card-description">World-class surf breaks, dreamy lagoons, island-hopping escapes, and a vibrant island lifestyle you'll never forget.</p>
+                <button class="card-button">Read More</button>
+              </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="images/vigan.jpg" alt="" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Vigan</h3>
+                <p class="card-description">Cobblestone streets, Spanish colonial houses, and timeless heritage charm.</p>
+                <button class="card-button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev" style="color: #564E38;"></div>
+        <div class="swiper-button-next" style="color: #564E38;"></div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages-section" id="packages">
+      <h2 class="section-title packages-title">ADVENTURE TOURS AND EXCLUSIVE PACKAGES</h2>
+
+      <div class="packages-card-container">
+        <div class="packages-cards">
+          <div class="package-image">
+            <img src="images/boracayisland.png" class="packages-card-image" alt="">
+          </div>
+          <div class="package-description">
+            <div class="package-title">Boracay Island Hopping</div>
+            <div class="package-price-and-button">
+              <p class="package-price">PHP 999</p>
+              <button class="package-button">Book now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="packages-cards">
+          <div class="package-image">
+            <img src="images/boholtarsier.jpg" class="packages-card-image" alt="">
+          </div>
+          <div class="package-description">
+            <div class="package-title">Bohol Countryside Tour</div>
+            <div class="package-price-and-button">
+              <p class="package-price">PHP 999</p>
+              <button class="package-button">Book now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="packages-cards">
+          <div class="package-image">
+            <img src="images/siargaosurf.png" class="packages-card-image" alt="">
+          </div>
+          <div class="package-description">
+            <div class="package-title">Siargao Surf Camp</div>
+            <div class="package-price-and-button">
+              <p class="package-price">PHP 999</p>
+              <button class="package-button">Book now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="packages-cards">
+          <div class="package-image">
+            <img src="images/cebucanyon.jpg" class="packages-card-image" alt="">
+          </div>
+          <div class="package-description">
+            <div class="package-title">Cebu Canyoneering</div>
+            <div class="package-price-and-button">
+              <p class="package-price">PHP 999</p>
+              <button class="package-button">Book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Philippines Section -->
+  <section class="why-philippines-section">
+  <h2 class="section-title why-title">WHY CHOOSE THE PHILIPPINES?</h2>
+
+  <div class="why-container">
+    <div class="why-card">
+      <i class="fas fa-umbrella-beach why-icons"></i>
+      <h3 class="why-title-text">Incredible Beaches</h3>
+      <p class="why-text">Over 7,000 islands with world-class beaches</p>
+    </div>
+
+    <div class="why-card">
+      <i class="fas fa-users why-icons"></i>
+      <h3 class="why-title-text">Welcoming People</h3>
+      <p class="why-text">Warm hospitality and rich cultural heritage</p>
+    </div>
+
+    <div class="why-card">
+      <i class="fas fa-dove why-icons"></i>
+      <h3 class="why-title-text">Peaceful Mindset</h3>
+      <p class="why-text">Relax with concepts like "no worries" attitude</p>
+    </div>
+
+    <div class="why-card">
+      <i class="fas fa-utensils why-icons"></i>
+      <h3 class="why-title-text">Delicious Cuisine</h3>
+      <p class="why-text">Savor tropical fruits and fusion food delights</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <h2 class="section-title testimonials-title">WHAT TRAVELERS SAY</h2>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="images/traveler1.png" alt="Traveler Sarah">
+          </div>
+          <p class="testimonial-quote">
+            The Philippines stole our hearts with its breathtaking views and friendly locals.
+            A must-visit paradise!
+          </p>
+          <p class="testimonial-name">- Sarah K.</p>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="images/traveler2.png" alt="Traveler Mike">
+          </div>
+          <p class="testimonial-quote">
+            Kayaking in Palawan was an adventure of a lifetime. Unforgettable beauty and pure exhilaration!
+          </p>
+          <p class="testimonial-name">- Mike T.</p>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="images/traveler3.png" alt="Travelers Laila and Raj">
+          </div>
+          <p class="testimonial-quote">
+            The culture, food, and hospitality made our honeymoon in Cebu truly magical. We'll be back for more!
+          </p>
+          <p class="testimonial-name">- Laila &amp; Raj</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <div class="newsletter-copy">
+          <h3 class="newsletter-title">Get Travel Updates</h3>
+          <p class="newsletter-text">Subscribe to our newsletter for exclusive deals and travel tips</p>
+        </div>
+
+        <form class="newsletter-form" action="#" method="post">
+          <input type="email" class="newsletter-input" placeholder="Your email address" required>
+          <button class="newsletter-button" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+    <footer class="site-footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="footer-title">Discover Philippines</h4>
+        <p class="footer-text">
+          Your gateway to stunning islands, rich culture, and warm hospitality of the Philippines.
+          Experience the beauty of 7,641 islands with us.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Popular Destinations</h4>
+        <ul class="footer-links">
+          <li class="footer-items"><a href="#destination">Boracay</a></li>
+          <li class="footer-items"><a href="#destination">Palawan</a></li>
+          <li class="footer-items"><a href="#destination">Bohol</a></li>
+          <li class="footer-items"><a href="#destination">Siargao</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Exclusive Packages</h4>
+        <ul class="footer-links">
+          <li class="footer-items"><a href="#packages">Boracay Island Hopping</a></li>
+          <li class="footer-items"><a href="#packages">Bohol Countryside Tour</a></li>
+          <li class="footer-items"><a href="#packages">Siargao Surf Camp</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Contact Us</h4>
+        <ul class="footer-contact">
+          <li class="footer-items"><i class="fa-solid fa-location-dot"></i> 123 Lakbay Street, Makati City</li>
+          <li class="footer-items"><i class="fa-solid fa-phone"></i> +63 0123 456 789</li>
+          <li class="footer-items"><i class="fa-solid fa-envelope"></i> traveler.explore@gmail.com</li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Travelers. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Swiper JS link -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
